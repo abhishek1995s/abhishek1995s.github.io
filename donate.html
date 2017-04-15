@@ -201,36 +201,81 @@
 							<button onclick="hider(2,1)" class="stripe-button-el"  style="padding:5px 31px"><font color="white"><b> Donation</b></font></button>
 								<button onclick="hider(2,2)" class="stripe-button-el" style="padding:5px;margin-left:  60px;margin-bottom:  30px" ><font color="white"><b>Regular Supporter</b></font></button>
 								<div id="donation2" class="hide">
+								<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+								<input type="hidden" name="cmd" value="_xclick">
+<input type="hidden" name="business" value="abhisheks6477@gmail.com">
+<input type="hidden" name="lc" value="IN">
+<input type="hidden" name="item_name" value="temporary">
+<input type="hidden" name="button_subtype" value="services">
+<input type="hidden" name="no_note" value="0">
+<input type="hidden" name="currency_code" value="USD">
+<input type="hidden" name="bn" value="PP-BuyNowBF:btn_buynowCC_LG.gif:NonHostedGuest">
+<input type="hidden" name="on0" value="enter the amount">
                                <br>  Enter the amount
                                   <div class="form-inline form-group quater-width">
                                     <div class="input-group">
                                       <div class="input-group-addon">$</div>
-                                        <input type="text"  class="form-control" id="InputAmount" style="color:#333333;width:15%;border-radius:0;border:1px solid #e0e0e0" placeholder="Amount" value="0">
+                                        <input type="text" name="os0"  maxlength="200" class="form-control" id="InputAmount" style="color:#333333;width:15%;border-radius:0;border:1px solid #e0e0e0" placeholder="Amount" value="0">
                                         <!--
                                       <div class="input-group-addon">.00</div>-->
                                     </div>
                                   </div>
-                                  <a href="./donate/" class="btn">Donate with Paypal</a><br><br>
+                                  <input type="image" src="https://www.paypalobjects.com/en_GB/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
+</form>
+                              
+
+
+
+ 
+
 							</div>
               
 
 							
 							<div id="regular2" class="hide">
 							<br>Choose a monthly amount:
-                                
-                                
+                            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+							<input type="hidden" name="cmd" value="_xclick">
+							<input type="hidden" name="business" value="abhisheks6477@gmail.com">
+							<input type="hidden" name="lc" value="IN">
+							<input type="hidden" name="item_name" value="temporary">
+							<input type="hidden" name="button_subtype" value="services">
+							<input type="hidden" name="no_note" value="0">
+							<input type="hidden" name="currency_code" value="USD">
+							<input type="hidden" name="bn" value="PP-BuyNowBF:btn_buynowCC_LG.gif:NonHostedGuest">    
+ 							<input type="hidden" name="on0" value="payment">                               
                                   <div class="form-inline form-group quater-width">
                                     <div class="input-group">
-                                      <select name="monthlyamount" id="monthlyamount" style="border-radius:5px;width: 200px" class="form-control">
-                                          <option value="5">$5/month</option>
-                                          <option value="10">$10/month</option>
-                                          <option value="50">$50/month</option>
-                                          <option value="100">$100/month</option>
-                                          <option value="200">$200/month</option>
+                                      <select name="os0" id="monthlyamount" style="border-radius:5px;width: 200px" class="form-control">
+                                          <option value="monthly">$5/month</option>
+                                          <option value="monthly"">$10/month</option>
+                                          <option value="monthly"">$50/month</option>
+                                          <option value="monthly">$100/month</option>
+                                          <option value="monthly">$200/month</option>
                                         </select>
+                                        <input type="hidden" name="currency_code" value="USD">
+							<input type="hidden" name="option_select0" value="monthly">
+							<input type="hidden" name="option_amount0" value="5.00">
+							<input type="hidden" name="option_select1" value="monthly">
+							<input type="hidden" name="option_amount1" value="10.00">
+							<input type="hidden" name="option_select2" value="monthly">
+							<input type="hidden" name="option_amount2" value="50.00">
+							<input type="hidden" name="option_select3" value="monthly">
+							<input type="hidden" name="option_amount3" value="100.00">
+							<input type="hidden" name="option_select4" value="monthly">
+							<input type="hidden" name="option_amount4" value="200.00">
+							<input type="hidden" name="option_index" value="0">
                                     </div>
                                   </div>
-                                 <a href="./donate/" class="btn">Donate with Paypal</a><br><br>
+                                
+
+
+
+<input type="image" src="https://www.paypalobjects.com/en_GB/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
+</form>
+
 							
 							</div>
 						</div>
