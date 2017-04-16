@@ -198,10 +198,7 @@
 					<div class="row">
 						<div class="col-sm-12">
 							<h1>Donate with Paypal</h1>
-							<button onclick="hider(2,1)" class="stripe-button-el"  style="padding:5px 31px"><font color="white"><b> Donation</b></font></button>
-								<button onclick="hider(2,2)" class="stripe-button-el" style="padding:5px;margin-left:  60px;margin-bottom:  30px" ><font color="white"><b>Regular Supporter</b></font></button>
-								<div id="donation2" class="hide">
-								<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
+	<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
 
     <!-- Identify your business so that you can collect the payments. -->
     <input type="hidden" name="business"
@@ -214,12 +211,15 @@
     <input type="hidden" name="item_name" value="Friends of the Park">
     <input type="hidden" name="item_number" value="Fall Cleanup Campaign">
     <input type="hidden" name="currency_code" value="USD">
+							<button onclick="hider(2,1)" type="submit"class="stripe-button-el"  style="padding:5px 31px"><font color="white"><b> Donation</b></font></button>
+								<button type="button" onclick="hider(2,2)" class="stripe-button-el" style="padding:5px;margin-left:  60px;margin-bottom:  30px" ><font color="white"><b>Regular Supporter</b></font></button></form> 
+								<div id="donation2" class="hide">
+							
 
     <!-- Display the payment button. -->
-  <input type="image" src="https://www.paypalobjects.com/en_GB/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal – The safer, easier way to pay online!">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="1" height="1">
+  
 
-</form>      
+     
 
 
 
